@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <title>ToDo App Front End</title>
+</head>
+
+<body>
+    <script src="index.js"></script>
+    <header>
+        <div class="header-wrap">
+            <div class="title-wrap">
+                <img id="logo" src="logofithanu.jpg" alt="">
+                <h1 id="slogan">Todos</h1>
+            </div>
+            <div class="wrap-introduction">
+                <div class="intro">
+                    <h2 class="instructorandstudent">Instructor : Dr. Nguyễn Xuân Thắng</h2>
+                    <h2 class="instructorandstudent">Student: Đào Xuân Tới</h2>
+                    <h2 id="partclass">(Part 3)</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrap-todoapp">
+        <section class="todoapp">
+            <header class="header">
+                <input class="new-todo" placeholder="What needs to be done?" autofocus="" onkeypress="addItem(event)" />
+            </header>
+
+            <section class="main">
+                <ul class="todo-list"></ul>
+            </section>
+
+            <footer class="footer"></footer>
+        </section>
+    </div>
+
+</body>
+
+</html>
